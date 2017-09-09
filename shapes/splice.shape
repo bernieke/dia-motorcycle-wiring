@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>Splice</name>
+    <icon>splice.png</icon>
+    <connections>
+        <point x="0" y="0"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-width>0.1cm</default-width>
+
+    <svg:svg>
+        <svg:circle cx="0" cy="0" r="1"/>
+    </svg:svg>
+</shape>

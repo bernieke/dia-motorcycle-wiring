@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Battery</name>
+  <icon>battery.png</icon>
+  <connections>
+    <point x="1.5" y="0"/>
+    <point x="4.5" y="0"/>
+  </connections>
+
+  <aspectratio type="fixed"/>
+  <default-width>15cm</default-width>
+
+  <svg:svg style="font-size:1">
+    <svg:polygon points="0,0.5 1,0.5 1,0 2,0 2,0.5 4,0.5 4,0 5,0 5,0.5 6,0.5 6,6 0,6"/>
+    <svg:text x="1.5" y="1.5" style="text-anchor:middle">+</svg:text>
+    <svg:text x="4.5" y="1.5" style="text-anchor:middle">-</svg:text>
+  </svg:svg>
+</shape>

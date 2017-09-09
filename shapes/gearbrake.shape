@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>GearBrake</name>
+    <icon>gearbrake.png</icon>
+    <connections>
+        <point x="5" y="10"/>
+        <point x="5" y="18"/>
+        <point x="5" y="26"/>
+        <point x="5" y="34"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-width>8cm</default-width>
+
+    <svg:svg style="font-size:10">
+        <svg:polygon points="0,0 100,0 100,44 0,44"/>
+
+        <svg:circle cx="5" cy="10" r="2"/>
+        <svg:text x="10" y="13" style="text-anchor:start">Gnd</svg:text>
+        <svg:circle cx="5" cy="18" r="2"/>
+        <svg:text x="10" y="21" style="text-anchor:start">+12V</svg:text>
+        <svg:circle cx="5" cy="26" r="2"/>
+        <svg:text x="10" y="29" style="text-anchor:start">In</svg:text>
+        <svg:circle cx="5" cy="34" r="2"/>
+        <svg:text x="10" y="37" style="text-anchor:start">Out</svg:text>
+
+        <svg:text x="95" y="27" style="text-anchor:end;font-size:14">GearBrake</svg:text>
+    </svg:svg>
+</shape>

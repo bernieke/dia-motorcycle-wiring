@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>Power Box</name>
+    <icon>power_box.png</icon>
+    <connections>
+        <point x="95" y="35"/>
+        <point x="95" y="45"/>
+        <point x="95" y="55"/>
+        <point x="95" y="65"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-width>10cm</default-width>
+
+    <svg:svg style="font-size:10">
+        <svg:polygon points="0,0 100,0 100,100 0,100"/>
+
+        <svg:circle cx="95" cy="35" r="2"/>
+        <svg:text x="90" y="38" style="text-anchor:end">Gnd</svg:text>
+        <svg:circle cx="95" cy="45" r="2"/>
+        <svg:text x="90" y="48" style="text-anchor:end">+12V</svg:text>
+        <svg:circle cx="95" cy="55" r="2"/>
+        <svg:text x="90" y="58" style="text-anchor:end">Alt 1</svg:text>
+        <svg:circle cx="95" cy="65" r="2"/>
+        <svg:text x="90" y="68" style="text-anchor:end">Alt 2</svg:text>
+
+        <svg:text x="5" y="55" style="text-anchor:start;font-size:14">Power Box</svg:text>
+    </svg:svg>
+</shape>

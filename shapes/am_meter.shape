@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>AM meter</name>
+    <icon>am_meter.png</icon>
+    <connections>
+        <point x="75" y="7"/>
+        <point x="75" y="142"/>
+        <point x="7" y="75"/>
+        <point x="143" y="75"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-height>5cm</default-height>
+
+    <svg:svg style="font-size:20">
+        <svg:circle cx="75" cy="75" r="75"/>
+
+        <svg:circle cx="75" cy="7" r="4"/>
+        <svg:circle cx="75" cy="143" r="4"/>
+        <svg:circle cx="7" cy="75" r="4"/>
+        <svg:circle cx="143" cy="75" r="4"/>
+
+        <svg:text x="75" y="75" style="text-anchor:middle;font-size:64">A</svg:text>
+        <svg:text x="12" y="78" style="text-anchor:start">Reg.</svg:text>
+        <svg:text x="138" y="78" style="text-anchor:end">Batt.</svg:text>
+        <svg:text x="75" y="25" style="text-anchor:middle">Light +</svg:text>
+        <svg:text x="75" y="128" style="text-anchor:middle">Light -</svg:text>
+    </svg:svg>
+</shape>

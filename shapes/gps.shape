@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>GPS</name>
+    <icon>gps.png</icon>
+    <connections>
+        <point x="1" y="3.5"/>
+        <point x="3" y="3.5"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-width>12cm</default-width>
+
+    <svg:svg style="font-size:1">
+        <svg:polygon points="0,0 4,0 4,3 0,3"/>
+        <svg:polygon points="-0.5,-0.5 4.5,-0.5 4.5,4 -0.5,4"/>
+
+        <svg:circle cx="1" cy="3.5" r="0.25"/>
+        <svg:text x="0.5" y="3.75" style="text-anchor:end">+</svg:text>
+        <svg:circle cx="3" cy="3.5" r="0.25"/>
+        <svg:text x="3.5" y="3.75" style="text-anchor:start">-</svg:text>
+    </svg:svg>
+</shape>

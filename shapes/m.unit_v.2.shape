@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>m.unit v.2</name>
+    <icon>m.unit_v.2.png</icon>
+    <connections>
+        <point x="120" y="40"/>
+
+        <point x="30" y="75"/>
+        <point x="30" y="105"/>
+        <point x="30" y="135"/>
+        <point x="30" y="165"/>
+        <point x="30" y="195"/>
+        <point x="30" y="225"/>
+        <point x="30" y="255"/>
+        <point x="30" y="285"/>
+
+        <point x="210" y="75"/>
+        <point x="210" y="105"/>
+        <point x="210" y="135"/>
+        <point x="210" y="165"/>
+        <point x="210" y="195"/>
+        <point x="210" y="225"/>
+        <point x="210" y="255"/>
+        <point x="210" y="285"/>
+
+        <point x="200" y="330"/>
+        <point x="120" y="360"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-height>15cm</default-height>
+
+    <svg:svg style="font-size:16">
+        <svg:polygon points="0,50 120,0 240,50 240,350 120,400 0,350"/>
+
+        <svg:circle cx="120" cy="40" r="20"/>
+        <svg:text x="90" y="50" style="text-anchor:end; font-size:32">G</svg:text>
+
+        <svg:circle cx="30" cy="75" r="10"/>
+        <svg:text x="45" y="81" style="text-anchor:start">IN Turn R</svg:text>
+        <svg:circle cx="30" cy="105" r="10"/>
+        <svg:text x="45" y="111" style="text-anchor:start">IN Start</svg:text>
+        <svg:circle cx="30" cy="135" r="10"/>
+        <svg:text x="45" y="141" style="text-anchor:start">IN Horn</svg:text>
+        <svg:circle cx="30" cy="165" r="10"/>
+        <svg:text x="45" y="171" style="text-anchor:start">IN Turn L</svg:text>
+        <svg:circle cx="30" cy="195" r="10"/>
+        <svg:text x="45" y="201" style="text-anchor:start">IN Config</svg:text>
+        <svg:circle cx="30" cy="225" r="10"/>
+        <svg:text x="45" y="231" style="text-anchor:start">IN Light</svg:text>
+        <svg:circle cx="30" cy="255" r="10"/>
+        <svg:text x="45" y="261" style="text-anchor:start">IN Brake</svg:text>
+        <svg:circle cx="30" cy="285" r="10"/>
+        <svg:text x="45" y="291" style="text-anchor:start">IN Lock</svg:text>
+
+        <svg:circle cx="210" cy="75" r="10"/>
+        <svg:text x="195" y="81" style="text-anchor:end">Turn R OUT</svg:text>
+        <svg:circle cx="210" cy="105" r="10"/>
+        <svg:text x="195" y="111" style="text-anchor:end">Start OUT</svg:text>
+        <svg:circle cx="210" cy="135" r="10"/>
+        <svg:text x="195" y="141" style="text-anchor:end">Horn OUT</svg:text>
+        <svg:circle cx="210" cy="165" r="10"/>
+        <svg:text x="195" y="171" style="text-anchor:end">Turn L OUT</svg:text>
+        <svg:circle cx="210" cy="195" r="10"/>
+        <svg:text x="195" y="201" style="text-anchor:end">Light Lo OUT</svg:text>
+        <svg:circle cx="210" cy="225" r="10"/>
+        <svg:text x="195" y="231" style="text-anchor:end">Light Hi OUT</svg:text>
+        <svg:circle cx="210" cy="255" r="10"/>
+        <svg:text x="195" y="261" style="text-anchor:end">Brake OUT</svg:text>
+        <svg:circle cx="210" cy="285" r="10"/>
+        <svg:text x="195" y="291" style="text-anchor:end">Aux OUT</svg:text>
+
+        <svg:circle cx="200" cy="330" r="20"/>
+        <svg:text x="170" y="340" style="text-anchor:end; font-size:32">V</svg:text>
+        <svg:circle cx="120" cy="360" r="20"/>
+        <svg:text x="90" y="370" style="text-anchor:end; font-size:32">G</svg:text>
+    </svg:svg>
+</shape>

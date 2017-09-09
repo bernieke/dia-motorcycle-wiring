@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>Coil</name>
+    <icon>coil.png</icon>
+    <connections>
+        <point x="15" y="25" r="5"/>
+        <point x="45" y="25" r="5"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-height>15cm</default-height>
+
+    <svg:svg style="font-size:16">
+        <svg:polygon points="30,0 60,20 60,150 0,150 0,20"/>
+
+        <svg:circle cx="15" cy="25" r="5"/>
+        <svg:text x="15" y="40" style="text-anchor:middle">+</svg:text>
+        <svg:circle cx="45" cy="25" r="5"/>
+        <svg:text x="45" y="40" style="text-anchor:middle">-</svg:text>
+
+        <svg:text x="30" y="75" style="text-anchor:middle">Coil</svg:text>
+    </svg:svg>
+</shape>

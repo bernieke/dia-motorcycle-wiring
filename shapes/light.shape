@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>Light</name>
+    <icon>light.png</icon>
+    <connections>
+        <point x="15" y="75"/>
+        <point x="135" y="75"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-height>3cm</default-height>
+    <textbox x1="0" y1="160" x2="150" y2="200"/>
+
+    <svg:svg style="font-size:16">
+        <svg:circle cx="75" cy="75" r="75"/>
+
+        <svg:circle cx="15" cy="75" r="7.5"/>
+        <svg:circle cx="135" cy="75" r="7.5"/>
+        <svg:line x1="25" y1="25" x2="125" y2="125"/>
+        <svg:line x1="125" y1="25" x2="25" y2="125"/>
+
+    </svg:svg>
+</shape>

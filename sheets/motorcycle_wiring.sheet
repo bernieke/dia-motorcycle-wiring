@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+  <name>Motorcycle wiring</name>
+  <description>Components for motorcycle wiring diagrams</description>
+  <contents>
+    <object name="Splice">
+      <description>Splice connection point</description>
+    </object>
+    <object name="Ground">
+      <description>ground</description>
+    </object>
+    <object name="m.unit v.2">
+     <description>motogadget m.unit v.2 digital control unit</description>
+    </object>
+    <object name="Alternator">
+     <description>Alternator</description>
+    </object>
+    <object name="Coil">
+     <description>Coil</description>
+    </object>
+    <object name="GearBrake">
+     <description>GearBrake early warning brake module</description>
+    </object>
+    <object name="Audicator">
+     <description>Audicator indicator warning</description>
+    </object>
+    <object name="Battery">
+     <description>Battery</description>
+    </object>
+    <object name="Speedometer">
+     <description>Speedometer</description>
+    </object>
+    <object name="AM meter">
+     <description>AM meter</description>
+    </object>
+    <object name="Ignition switch">
+     <description>Ignition switch</description>
+    </object>
+    <object name="GPS">
+     <description>GPS</description>
+    </object>
+    <object name="Power Box">
+     <description>Boyer Bransden Power Box Regulator &amp; Rectifier</description>
+    </object>
+    <object name="Ignition module">
+     <description>Pazon Sure-Fire Ignition module</description>
+    </object>
+    <object name="Ignition trigger">
+     <description>Pazon Sure-Fire Ignition trigger</description>
+    </object>
+    <object name="Taillight">
+     <description>Taillight</description>
+    </object>
+    <object name="Headlight">
+      <description>Headlight with Lo/Hi and pilot light</description>
+    </object>
+    <object name="Light">
+      <description>Light</description>
+    </object>
+    <object name="Switch">
+      <description>Switch</description>
+    </object>
+    <object name="Horn">
+      <description>Horn</description>
+    </object>
+    <object name="Fuse">
+      <description>Fuse</description>
+    </object>
+    <object name="Push button">
+      <description>Push button</description>
+    </object>
+    <object name="Two-way toggle">
+      <description>Two-way toggle</description>
+    </object>
+    <object name="Three-way toggle">
+      <description>Three-way toggle</description>
+    </object>
+   </contents>
+</sheet>

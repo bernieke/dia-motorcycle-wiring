@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Audicator</name>
+  <icon>audicator.png</icon>
+  <connections>
+    <point x="3.5" y="1"/>
+    <point x="3.5" y="2"/>
+    <point x="3.5" y="3"/>
+    <point x="3.5" y="4"/>
+  </connections>
+
+  <aspectratio type="fixed"/>
+  <default-height>5cm</default-height>
+
+  <svg:svg style="font-size:0.6;text-anchor:end">
+    <svg:circle cx="3.5" cy="1" r="0.2"/>
+    <svg:text x="3" y="1.15">Brake</svg:text>
+    <svg:circle cx="3.5" cy="2" r="0.2"/>
+    <svg:text x="3" y="2.15">Gnd</svg:text>
+    <svg:circle cx="3.5" cy="3" r="0.2"/>
+    <svg:text x="3" y="3.15">Left</svg:text>
+    <svg:circle cx="3.5" cy="4" r="0.2"/>
+    <svg:text x="3" y="4.15">Right</svg:text>
+    <svg:line x1="0" y1="0" x2="4" y2="0"/>
+    <svg:line x1="4" y1="0" x2="4" y2="5"/>
+    <svg:line x1="4" y1="5" x2="0" y2="5"/>
+    <svg:path d="M 0,0 A -1.2,2 0 0 0 0,5"/>
+    <svg:ellipse cx="0.5" cy="2.5" rx="1.2" ry="2"/>
+    <svg:line x1="-0.25" y1="1" x2="1.25" y2="1"/>
+    <svg:line x1="-0.5" y1="1.5" x2="1.5" y2="1.5"/>
+    <svg:line x1="-0.65" y1="2" x2="1.65" y2="2"/>
+    <svg:line x1="-0.70" y1="2.5" x2="1.70" y2="2.5"/>
+    <svg:line x1="-0.65" y1="3" x2="1.65" y2="3"/>
+    <svg:line x1="-0.5" y1="3.5" x2="1.5" y2="3.5"/>
+    <svg:line x1="-0.25" y1="4" x2="1.25" y2="4"/>
+  </svg:svg>
+</shape>

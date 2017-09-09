@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+    <name>Speedometer</name>
+    <icon>speedometer.png</icon>
+    <connections>
+        <point x="7" y="75"/>
+        <point x="143" y="75"/>
+    </connections>
+
+    <aspectratio type="fixed"/>
+    <default-height>5cm</default-height>
+
+    <svg:svg style="font-size:96">
+        <svg:circle cx="75" cy="75" r="75"/>
+
+        <svg:circle cx="7" cy="75" r="4"/>
+        <svg:circle cx="143" cy="75" r="4"/>
+
+        <svg:text x="75" y="105" style="text-anchor:middle">S</svg:text>
+    </svg:svg>
+</shape>
